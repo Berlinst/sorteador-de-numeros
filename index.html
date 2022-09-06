@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Sorteador de Números</h1>
+    <h3>Coloque nos inputs abaixo o valor minimo e máximo que pode ser sorteado.</h3>       
+
+    <div>            
+        <input type="text" id="min" placeholder="Minimo">
+        <input type="text" id="max" placeholder="Máximo">               
+    </div>
+
+    <div>
+        <input type="submit" id="sort" value="Sortear">
+    </div>
+
+    <div class="result" >
+        <h4>Resultado:</h4>
+        <p id="resultado"></p>
+    </div>
+
+    <div class="line">
+        <div class="dice">
+            <h2>D4</h2>
+            <input type="submit" id="sortD4" value="Sortear">
+            <p class="resultD4"></p>
+        </div>
+        
+        <div class="dice">
+            <h2>D6</h2>
+            <input type="submit" id="sortD6" value="Sortear">
+            <p class="resultD6"></p>
+        </div>
+
+        <div class="dice">
+            <h2>D8</h2>
+            <input type="submit" id="sortD8" value="Sortear">
+            <p class="resultD8"></p>
+        </div>
+
+        <div class="dice">
+            <h2>D10</h2>
+            <input type="submit" id="sortD10" value="Sortear">
+            <p class="resultD10"></p>
+        </div>
+
+        <div class="dice">
+            <h2>D20</h2>
+            <input type="submit" id="sortD20" value="Sortear">
+            <p class="resultD20"></p>
+        </div>
+
+        <div class="dice">
+            <h2>D100</h2>
+            <input type="submit" id="sortD100" value="Sortear">
+            <p class="resultD100"></p>
+        </div>
+    </div>        
+    <script src="script.js"></script>    
+</body>
+</html>
